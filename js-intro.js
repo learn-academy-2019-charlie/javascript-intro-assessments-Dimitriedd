@@ -108,8 +108,8 @@ while(myWhileLoop < mantra.length){
 
 // Super Stretch: Using forEach().
 var mantraAcc=mantra.split("")
-mantraAcc.forEach(function(element){
-    console.log(element)
+mantraAcc.forEach(function(letter){
+    console.log(letter)
 })
 
 // Consider the following variable:
