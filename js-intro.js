@@ -100,13 +100,17 @@ for(let i=0;i<mantra.length;i++){
     }
 
 // Stretch: Using a while loop.
-var myWhileLoop= 0
-while(myWhileLoop < 4){
+var myWhileLoop= -1
+while(myWhileLoop < mantra.length){
     myWhileLoop++
-    console.log(myWhileLoop)
+    console.log(mantra.substr(myWhileLoop,1))
 }
 
 // Super Stretch: Using forEach().
+var mantraAcc=mantra.split("")
+mantraAcc.forEach(function(element){
+    console.log(element)
+})
 
 // Consider the following variable:
 
