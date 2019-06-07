@@ -4,6 +4,8 @@ Answer these questions, then follow the instructions to submit your first assess
 
 #### 1. What is a function? Why would you use one?
 
+#### random sentence
+
 #### 2. What is a method?
 
 #### 3. What are some examples of javascript string methods?
