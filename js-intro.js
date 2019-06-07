@@ -45,7 +45,7 @@ const findV=(word)=>{
             return word.substr(i,1)
         }
     }if(catchAll===true){
-        return "There is no x"
+        return "There is no v"
     }else{
         return"error"
     }
