@@ -5,52 +5,61 @@
 var mantra = "Be the dev";
 var test = "EvvvEBEExxxxEE"
 // 1. Write the code that returns 'B' from mantra.
-const findB=(word)=>{
-    let wordLower = word.toLowerCase("")
-    for(let i=0;i<wordLower.length;i++){
-        if(wordLower.substr(i,1)==="b"){
-            return word.substr(i,1)
-        }
-    }
+// const findB=(word)=>{
+//     let wordLower = word.toLowerCase("")
+//     for(let i=0;i<wordLower.length;i++){
+//         if(wordLower.substr(i,1)==="b"){
+//             return word.substr(i,1)
+//         }
+//     }
     
-}
+// }
+const findB=(str)=>{
+    if(str.includes("B")){return "B"}}
+    
 console.log(findB(test))
 console.log(findB(mantra))
 
 // 2. Write the code that determines if there is a 'x' in mantra.
-const findX=(word)=>{
-    let catchAll=true
-    let wordLower = word.toLowerCase("")
-    for(let i=0;i<wordLower.length;i++){
-        if(wordLower.substr(i,1)==="x"){
-            catchAll=false
-            return word.substr(i,1)
-        }
-    }if(catchAll===true){
-        return "There is no x"
-    }else{
-        return"error"
-    }
+// const findX=(word)=>{
+//     let catchAll=true
+//     let wordLower = word.toLowerCase("")
+//     for(let i=0;i<wordLower.length;i++){
+//         if(wordLower.substr(i,1)==="x"){
+//             catchAll=false
+//             return word.substr(i,1)
+//         }
+//     }if(catchAll===true){
+//         return "There is no x"
+//     }else{
+//         return"error"
+//     }
     
-}
+// }
+const findX=(str)=>{
+    if(str.includes("x")){return "x"}else{return"no x"}}
+    
 console.log(findX(test))
 console.log(findX(mantra))
-// 3. Write the code that determines if there is a 'v' in mantra.
-const findV=(word)=>{
-    let catchAll=true
-    let wordLower = word.toLowerCase("")
-    for(let i=0;i<wordLower.length;i++){
-        if(wordLower.substr(i,1)==="v"){
-            catchAll=false
-            return word.substr(i,1)
-        }
-    }if(catchAll===true){
-        return "There is no v"
-    }else{
-        return"error"
-    }
+// // 3. Write the code that determines if there is a 'v' in mantra.
+// const findV=(word)=>{
+//     let catchAll=true
+//     let wordLower = word.toLowerCase("")
+//     for(let i=0;i<wordLower.length;i++){
+//         if(wordLower.substr(i,1)==="v"){
+//             catchAll=false
+//             return word.substr(i,1)
+//         }
+//     }if(catchAll===true){
+//         return "There is no v"
+//     }else{
+//         return"error"
+//     }
     
-}
+// }
+const findV=(str)=>{
+    if(str.includes("v")){return "v"}}
+    
 console.log(findV(test))
 console.log(findV(mantra))
 // Stretch: Write the code that returns the position of 'v' in mantra.
